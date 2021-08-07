@@ -1,0 +1,25 @@
+h1{
+  color: red;
+}
+header{
+  display: flex;
+  background-color: skyblue;
+}
+.new{
+  margin-right: auto;
+}
+p.login{
+  text-align: right!important;
+}
+/*.sub_title{
+  font-size: 20px;
+}
+
+.channel{
+  font-size: 30px;
+}
+
+li {
+  list-style: none;
+}
+s
