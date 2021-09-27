@@ -1,0 +1,82 @@
+h1{
+  color: red;
+}
+header{
+  display: flex;
+  background-color: skyblue;
+}
+.new{
+  margin-right: auto;
+}
+
+
+p.big{
+  font-size: 80px;
+  color: orange;
+}
+
+
+.right {
+  margin-left:  auto;
+  font-size: 15px;
+}
+
+
+.center{
+  text-align: center;
+  font-size:16px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.menu{
+  background-color: skyblue;
+}
+
+.table{
+  margin-left: 250px;
+}
+.side{
+width:250px;
+height: 100vh;
+float:left;
+margin-top:10px;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+.center{
+  float: center;
+}
+
+
+
+.sub_title{
+  text-align: center;
+}
+
+.channel{
+  font-size: 30px;
+}
+
+li {
+  list-style: none;
+}
+.biside{
+  display: flex;
+}
+
+.main{
+  margin-left: 15px;
+}
+
+table.top{
+  margin-top: 50px;
+}
+
+p.number{
+  font-size: 20px;
+  text-align: center;
+}
