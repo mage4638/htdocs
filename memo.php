@@ -1,11 +1,5 @@
 <?php
     session_start();
-    //まずはデータベースへ接続します
-    $dsn = "mysql:dbname=php_tools;host=localhost;charset=utf8mb4";
-    $username = "root";
-    $password = "";
-    $options = [];
-    $pdo = new PDO($dsn, $username, $password, $options);
     date_default_timezone_set('Asia/Tokyo');
     //追加ボタンが押された時の処理を記述します。
     if (null !== @$_POST["create"]) { //追加ボタンが押され方どうかを確認
