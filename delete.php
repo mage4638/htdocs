@@ -2,11 +2,6 @@
 
 try{
 
-    $dsn = "mysql:dbname=php_tools;host=localhost;charset=utf8mb4";
-    $username = "root";
-    $password = "";
-    $options = [];
-    $pdo = new PDO($dsn, $username, $password, $options);
 
     $stmt = $pdo->prepare('DELETE FROM subject2 WHERE ID = :id');
 
