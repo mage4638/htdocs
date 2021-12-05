@@ -1,8 +1,5 @@
 <?php
 session_start();
-$dsn = "mysql:dbname=php_tools;host=localhost;charset=utf8mb4";
-$username = "root";
-$password = "";
 
 try {
     $dbh = new PDO($dsn, $username, $password);
